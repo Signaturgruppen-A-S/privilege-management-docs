@@ -15,6 +15,9 @@ The scope of this document is to demonstrate how to integrate to the NeB PM API 
 
 A postman collection of API examples is provided alongside this document. 
 
+## Postman example
+A postman export of the used API integrations used in this document, can be found at [POSTMAN collection](https://raw.githubusercontent.com/Signaturgruppen-A-S/privilege-management-docs/main/Privilege%20runtime%20intetration.postman_collection.json)
+
 ## Basic lookup using NeB access token
 The most basic integration and way to lookup privileges for a logged in user, is to utilize the access token received as part of the OpenID Connect login utilized for any Nets eID Broker authentication flow. 
 
