@@ -6,6 +6,7 @@ layout: home
 # Nets eID Broker Privilege Management - Runtime integration
 
 ## Introduction
+
 This document serves as a technical introduction to the Nets eID Broker Privilege Management (NeB PM) and is targeted at architects, developers and technical stakeholders from service providers integrating to the NeB PM serivices.
 
 It is assumed that the reader has digested the information found in the "Nets eID Broker Privilege Management - Basic introduction", as a prerequisite for this document.
