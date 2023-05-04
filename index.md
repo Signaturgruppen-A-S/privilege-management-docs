@@ -157,9 +157,9 @@ Authorization: Bearer {access token}
 https://pp.netseidbroker.dk/privileges-api/api/v1/organizations/DK00000002/assignedIdentityPrivileges/mitid/06087080-dab1-4015-bf88-a4b4d6486537/runtime
 
 ```
-> The **{idp}** parameter is the idp claim from a NeB login and also matches the defined idp claim values from the NeB technical documentation.  
+> The **{idp}** parameter ("mitid" above) is the idp claim from a NeB login and also matches the defined idp claim values from the NeB technical documentation.  
 
-> The **{IdpIdentityId}** parameter is the unique and global identifer for the identity for the IDP, for instance a UUID for both MitID and MitID Erhverv. This is the same values used for assigning privileges using the API.
+> The **{IdpIdentityId}** (06087080-dab1-4015-bf88-a4b4d6486537 above) parameter is the unique and global identifer for the identity for the IDP, for instance a UUID for both MitID and MitID Erhverv. This is the same values used for assigning privileges using the API.
 
 The call results in the following JSON (at that time)
 
