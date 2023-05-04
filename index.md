@@ -27,12 +27,12 @@ Upon successful authentication, the access token received on behalf of the end-u
 Authorization: Bearer {access token}
 GET https://pp.netseidbroker.dk/privileges-api/api/v1/identity/privileges
 ```
-> **NOTE** This is the only Privilege API that accepts end-user access tokens from NeB OIDC flows
+> **NOTE** This is the only Privilege API that accepts an end-user **access token** received from a NeB OIDC flow
 
 ### Example with access token from brokerdemo
 The online demo login site for Nets eID Broker is found at https://brokerdemo-pp.signaturgruppen.dk/ and allows for setting up many of the possible authentication flows available throught the Nets eID Broker platform. 
 
-After a successful login, the user is sent to a page that lists all claims received by the service provider (the demo site) and furhter lists the various tokens received from the OpenID Connect flow. Here you can see and copy the received access token for the flow and use this to test out the basic runtime integration to the privilege API using access tokens. 
+After a successful login, the user is sent to a page that lists all claims received by the service provider (the demo site) and further lists the various tokens received from the OpenID Connect flow. Here you can see and copy the received access token for the flow and use this to test out the basic runtime integration to the privilege API using access tokens. 
 
 In the following a login was made through the demo site with a MitID test user and then the privileges owned by Signaturgruppen, as the demo site is a Signaturgruppen site, assigned to this user is returned.  
 
@@ -95,12 +95,14 @@ This shows, that the MitID user has been assigned the Signaturgruppen privilege 
 
 
 ## Lookup using the API integration
-If the access token runtime API is not an option or if the service provider wants to be able to lookup runtime privileges without first having to authenticate the end-user, then the following Privilege API for runtime lookups is available
+If the access token runtime API is not an option or if the service provider wants to be able to lookup runtime privileges without first having to authenticate the end-user, then the following Privilege API for runtime lookups is available using a **service token** (i.e. not an end-user access token):
 
 ```
 https://pp.netseidbroker.dk/privileges-api/api/v1/organizations/{organizationTin}/assignedIdentityPrivileges/{idp}/{idpIdentityId}/runtime
 ```
+
 This requires a service token (API client access token) retrieved by calling the NeB Token endpoint and using the resulting service token as bearer token. 
+
 > The API client invoking the API must have been assigned the Signaturgruppen privilege **AssignIdentityPrivilegesRead**
 
 > The **privilege_api** scope must be requested in the Client Credentials request for service tokens
