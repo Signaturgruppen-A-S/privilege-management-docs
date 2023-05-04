@@ -15,7 +15,9 @@ The scope of this document is to demonstrate how to integrate to the NeB PM API 
 
 A postman collection of API examples is provided alongside this document. 
 
-## Postman example
+## Postman and Swagger
+The full Swagger definition for the Privileges API in PP is found at: [Swagger definition](https://pp.netseidbroker.dk/privileges-api/swagger/index.html)
+
 A postman export of the used API integrations used in this document, can be found at [POSTMAN collection](https://raw.githubusercontent.com/Signaturgruppen-A-S/privilege-management-docs/main/Privilege%20runtime%20intetration.postman_collection.json)
 
 ## Basic lookup using NeB access token
