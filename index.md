@@ -23,6 +23,13 @@ A postman export of the used API integrations used in this document, can be foun
 ## Basic lookup using NeB access token
 The most basic integration and way to lookup privileges for a logged in user, is to utilize the access token received as part of the OpenID Connect login utilized for any Nets eID Broker authentication flow. 
 
+In order to enable the returned access tokens for privilege lookups, the **privileges** scope value must be added to the Nets eID Broker authentication request.
+
+```
+Example scopes for MitID Erhverv request
+scope=openid nemlogin privileges
+```
+
 Upon successful authentication, the access token received on behalf of the end-user is used as a bearer token for the Privilege API runtime endpont
 
 ```
