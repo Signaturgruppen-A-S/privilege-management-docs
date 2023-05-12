@@ -2,7 +2,7 @@ title: Nets eID Broker Privilege Management documentation
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
-logo: "https://broker.signaturgruppen.dk/application/files/9615/9161/2965/nets-eid-broker.svg"
-favicon_ico: "https://broker.signaturgruppen.dk/application/files/2315/8512/7345/favicon.ico"
+logo: "/assets/nets-eid-broker.svg"
+favicon_ico: "/assets/favicon.ico"
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
