@@ -31,3 +31,8 @@ There are two environments the pre-production and production environment to be u
 | Pre-Production | Privilege UI | https://pp.netseidbroker.dk/privileges |
 | Production | Privilege API (swagger) | https://netseidbroker.dk/privileges-api/swagger |
 | Production | Privilege UI | https://netseidbroker.dk/privileges |
+
+# Changes
+| Date | Description | 
+|-------------|----------------------------|
+| 12-05-2023 | Updated navigation, home and runtime integration description |
