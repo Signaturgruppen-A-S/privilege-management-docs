@@ -106,17 +106,46 @@ This shows, that the MitID user has been assigned the Signaturgruppen privilege 
 
 
 ## Lookup using the API integration
+For all other scenarios on the API an API Client and a service token is required. Service tokens are an OAuth access token issued directly to an API client instead of an end-user, otherwise technically the same thing.
+
 If the access token runtime API is not an option or if the service provider wants to be able to lookup runtime privileges without first having to authenticate the end-user, then the following Privilege API for runtime lookups is available using a **service token** (i.e. not an end-user access token):
 
-```
-https://pp.netseidbroker.dk/privileges-api/api/v1/organizations/{organizationTin}/assignedIdentityPrivileges/{idp}/{idpIdentityId}/runtime
-```
-
-This requires a service token (API client access token) retrieved by calling the NeB Token endpoint and using the resulting service token as bearer token. 
+This requires a service token retrieved by calling the NeB Token endpoint (PP: https://pp.netseidbroker.dk/op/connect/token) and using the resulting service token as bearer token. 
 
 > The API client invoking the API must have been assigned the Signaturgruppen privilege **AssignIdentityPrivilegesRead**
 
 > The **privilege_api** scope must be requested in the Client Credentials request for service tokens
+
+**Header**
+
+| Key | Value |
+|---|---|
+| Content-Type | application/json |
+
+
+**Body**
+
+| Key | Value |
+|---|---|
+| grant_type | client_credentials |
+| client_id | fill in client_id |
+| client_secret | fill in client_secret |
+| scope | privilege_api |
+
+
+**Returns:**
+
+`{
+    "access_token": "eyJh...removed... ",
+    "expires_in": 3600,
+    "token_type": "Bearer",
+    "scope": "privilege_api"
+}`
+
+The service token **(the access_token parameter)** can then be used agaist the Privilege API as a Bearer token.
+
+
+
 
 ### Full example
 In the following it is demonstrated how to retrieve a service token used to invoke almost all Privilege API endpoints on behalf of your service integration and utilize this to lookup the privileges for a specific MitID identity. This is done on behalf of the test organization DK00000002 for which an API client is provided here in the example. 
