@@ -1,5 +1,5 @@
 ---
-title: Runtime integration
+title: Home
 layout: home
 ---
 
