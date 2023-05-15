@@ -33,6 +33,5 @@ There are two environments the pre-production and production environment to be u
 | Production | Privilege UI | https://netseidbroker.dk/privileges |
 
 # Changes
-| Date | Description |
-|-------------|--------|
-| 12-05-2023 | Updated navigation, home and runtime integration description |
+## 12-05-2023
+Updated navigation, home and runtime integration description 
