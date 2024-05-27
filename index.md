@@ -22,3 +22,11 @@ Nets eID Broker Privilege Management requires a Nets eID Broker contract.
 An employee must report pension data to a pension company on behalf of his organization.
 
 The pension company makes a privilege available via Nets eID Broker Privilege Management admin-portal, which could be called "Pension Reporter". The organization’s privilege administrator then assigns this privilege to the employee's MitID Erhverv. When the employee accesses the pension company's digital service to report pension data with his/hers MitID Erhverv, the pension company can check that the necessary privilege is assigned for the employee. If this is the case, access is granted to report pension on behalf of the organization in question.
+
+![Privilege Mangement example](assets/ENG_Rettighedsstyring_-_illustration.png) 
+
+## Not already a customer?
+Contact us to hear more on 70 25 64 25 or at salg@signaturgruppen.dk.
+
+## Are you already a customer?
+See our guide to how your business customers are onboarded and use Nets eID Broker Privilege Management. Download the guide [here](https://broker.signaturgruppen.dk/download_file/view/c4179dbc-1632-49cb-83fd-09e81dc61abe/368).
