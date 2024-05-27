@@ -11,14 +11,3 @@ nav_order: 1
 Similar to how you can assign specific privileges to employees in business administration for MitID Business, the functionality of Nets eID Broker Privilege Management extends to service providers. These providers may include private services such as insurance companies, pension funds, and others, as well as selected public services like foundations and agencies.
 
 To access a service provider's platform, it is crucial to be configured with the necessary access privileges in advance. This is done to safeguard against unauthorized access to sensitive information about your organization's contractual agreements.
-
-# Environments
-
-There are two environments the pre-production and production environment to be used by integrators.
-
-| Environment | System | Url |
-|-------------|--------|-----|
-| Pre-Production | Privilege API (swagger) | https://pp.netseidbroker.dk/privileges-api/swagger |
-| Pre-Production | Privilege UI | https://pp.netseidbroker.dk/privileges |
-| Production | Privilege API (swagger) | https://netseidbroker.dk/privileges-api/swagger |
-| Production | Privilege UI | https://netseidbroker.dk/privileges |
