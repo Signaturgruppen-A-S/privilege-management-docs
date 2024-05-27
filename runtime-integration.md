@@ -1,24 +1,29 @@
 ---
-title: Runtime integration
+title: API Integration
 layout: home
-nav_order: 2
+nav_order: 10
 ---
 
 
-# Nets eID Broker Privilege Management - Runtime integration
+# API Integration
+This section describes the API integration to Signaturgruppen Privilege Management in more detail. 
 
-## Introduction
+## Swagger definition
+The API definition is published through the Signaturgruppen Privilege Management Swagger API definition found at
 
-This document serves as a technical introduction to the Nets eID Broker Privilege Management (NeB PM) and is targeted at architects, developers and technical stakeholders from service providers integrating to the NeB PM serivices.
+PP environment:
+```
+https://pp.netseidbroker.dk/privileges-api/swagger/index.html
+```
 
-It is assumed that the reader has digested the information found in the "Nets eID Broker Privilege Management - Basic introduction", as a prerequisite for this document.
+Production environment:
+```
+https://netseidbroker.dk/privileges-api/swagger/index.html
+```
 
-The scope of this document is to demonstrate how to integrate to the NeB PM API in and lookup assigned privileges.
+> Note that all references are for the PP environment in the rest of the documentation.
 
-A postman collection of API examples is provided alongside this document. 
-
-## Postman and Swagger
-The full Swagger definition for the Privileges API in PP is found at: [Swagger definition](https://pp.netseidbroker.dk/privileges-api/swagger/index.html)
+## Postman examples
 
 A postman export of the used API integrations used in this document, can be found at [POSTMAN collection](https://raw.githubusercontent.com/Signaturgruppen-A-S/privilege-management-docs/main/Privilege%20runtime%20intetration.postman_collection.json)
 
