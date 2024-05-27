@@ -23,10 +23,6 @@ https://netseidbroker.dk/privileges-api/swagger/index.html
 
 > Note that all references are for the PP environment in the rest of the documentation.
 
-## Postman examples
-
-A postman export of the used API integrations used in this document, can be found at [POSTMAN collection](https://raw.githubusercontent.com/Signaturgruppen-A-S/privilege-management-docs/main/Privilege%20runtime%20intetration.postman_collection.json)
-
 ## Basic lookup using NeB access token
 The most basic integration and way to lookup privileges for a logged in user, is to utilize the access token received as part of the OpenID Connect login utilized for any Nets eID Broker authentication flow. 
 
