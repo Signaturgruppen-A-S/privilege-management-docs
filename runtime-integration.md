@@ -8,6 +8,8 @@ nav_order: 10
 # API Integration
 This section describes the API integration to Signaturgruppen Privilege Management in more detail. 
 
+> [Old PDF documentation is found here](https://www.signaturgruppen.dk/download/broker/docs/Nets%20eID%20Broker%20Privilege%20Management.pdf)
+
 ## Swagger definition
 The API definition is published through the Signaturgruppen Privilege Management Swagger API definition found at
 
