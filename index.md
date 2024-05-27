@@ -6,16 +6,19 @@ nav_order: 1
 
 # Signaturgruppen Privilege Management
 
-**Nets eID Broker Privilege Management serves as a platform for administering privileges for your organization.**
+**Signaturgruppen Privilege Management helps service providers and their customers manage privileges for employees with MitID Erhverv**
+ 
+If you are a MitID service provider and have business customers who need to access your digital services using MitID Erhverv - then you can benefit from Nets eID Broker Privilege Management.
 
-Similar to how you can assign specific privileges to employees in business administration for MitID Business, the functionality of Nets eID Broker Privilege Management extends to service providers. These providers may include private services such as insurance companies, pension funds, and others, as well as selected public services like foundations and agencies.
+By using Nets eID Broker Privilege Management, you as a service provider can implement access control in your own digital services. In this way, you can help your customers to ensure that only employees with the necessary privilege, connected to their MitID Erhverv, can access your digital services.
 
-To access a service provider's platform, it is crucial to be configured with the necessary access privileges in advance. This is done to safeguard against unauthorized access to sensitive information about your organization's contractual agreements.
+It is the service provider that creates the necessary privileges in Nets eID Broker Privilege Management admin-portal. The customers can then assign these privileges to their employees' MitID Erhverv, also from Nets eID Broker Privilege Management admin-portal. This can be done via a web interface and via a programmable API, so that business customers can automate privilege management based on their own directory.
 
-Through the Nets eID Broker Privilege Management platform, you can search for and allocate specific privileges to your employees' MitID Business users.
+It is free for business customers to assign the privileges and use them. The service provider pays for the establishment and operation of Nets eID Broker Privilege Management.
 
-If you are the privilege administrator, you bear the responsibility for assigning and managing privileges for employees and any external business partners requiring access to digital services from the service provider you are a customer of.
+Nets eID Broker Privilege Management requires a Nets eID Broker contract.
 
-The service provider creates and makes necessary privileges available in the Nets eID Broker Privilege Management administration portal, and it is free for your organization to allocate and use these privileges.
+## Example of a use case for Nets eID Broker Privilege Management
+An employee must report pension data to a pension company on behalf of his organization.
 
-![MitID login](assets/mitid-login1.png)
+The pension company makes a privilege available via Nets eID Broker Privilege Management admin-portal, which could be called "Pension Reporter". The organization’s privilege administrator then assigns this privilege to the employee's MitID Erhverv. When the employee accesses the pension company's digital service to report pension data with his/hers MitID Erhverv, the pension company can check that the necessary privilege is assigned for the employee. If this is the case, access is granted to report pension on behalf of the organization in question.
