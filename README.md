@@ -1,3 +1,3 @@
 # Signaturgruppen Privilege Management Documentation
 
-The documentation can be viewed live at [Documentation Pages](https://signaturgruppen-a-s.github.io/privilege-management-docs/)
+The documentation can be viewed live at [[Documentation Pages](https://signaturgruppen-a-s.github.io/privilege-management-docs)](https://signaturgruppen-a-s.github.io/privilege-management-docs/)
