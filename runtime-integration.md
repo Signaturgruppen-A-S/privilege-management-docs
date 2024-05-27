@@ -25,13 +25,16 @@ https://netseidbroker.dk/privileges-api/swagger/index.html
 
 > Note that all references are for the PP environment in the rest of the documentation.
 
-## Basic lookup using NeB access token
-The most basic integration and way to lookup privileges for a logged in user, is to utilize the access token received as part of the OpenID Connect login utilized for any Nets eID Broker authentication flow. 
+## Basic lookup using Signaturgruppen Broker access token
 
-In order to enable the returned access tokens for privilege lookups, the **privileges** scope value must be added to the Nets eID Broker authentication request.
+For reference, see the [Signaturgruppen Broker documentation](https://signaturgruppen-a-s.github.io/signaturgruppen-broker-documentation/).
 
-```
+The most basic integration and way to lookup privileges for a logged in user, is to utilize the access token received as part of the OpenID Connect login utilized for any Signaturgruppen Broker authentication flow. 
+
+In order to enable the returned access tokens for privilege lookups, the **privileges** scope value must be added to the Signaturgruppen Broker authentication request.
+
 Example scopes for MitID Erhverv request
+```
 scope=openid nemlogin privileges
 ```
 
