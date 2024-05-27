@@ -14,6 +14,10 @@ nav_order: 4
 
 <a href="https://netseidbroker.dk/privileges#/onboarding" target="_blank">Go to onboarding</a>
 
+## PDF documentation
+We are in the process of converting the technical documentation to this HTML page format.
+You can find the [old documentation here](https://www.signaturgruppen.dk/download/broker/docs/Nets%20eID%20Broker%20Privilege%20Management.pdf)
+
 ## Postman examples
 A PostMan collection is available that introduces the basic API integration. See the [API integration section](https://signaturgruppen-a-s.github.io/privilege-management-docs/runtime-integration.html#api-integration) for more technical details.
 
