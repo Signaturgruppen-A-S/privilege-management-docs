@@ -18,5 +18,4 @@ If you are the privilege administrator, you bear the responsibility for assignin
 
 The service provider creates and makes necessary privileges available in the Nets eID Broker Privilege Management administration portal, and it is free for your organization to allocate and use these privileges.
 
-<img alt="MitID Login" src="https://github.com/Signaturgruppen-A-S/privilege-management-docs/blob/1daa79640f50f8ff08ab8b4bb39a48c8b314014f/assets/mitid-login1.png" style="width: 300px; height: 450px; float: left; margin-left: 20px; margin-right: 20px;" />
-
+![MitID login](/assets/mitid-login1.png)
