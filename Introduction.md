@@ -5,7 +5,7 @@ nav_order: 6
 ---
 
 # Introduction
-This document is an introduction to Signaturgruppen Privilege Management (NeB-PM)
+This document is an introduction to Signaturgruppen Privilege Management.
 
 The intended audiences are Privilege administrators, IT developers and IT architects.
 
@@ -17,6 +17,7 @@ Both the API and the web-interface is tailored towards two overall usages
 - Privilege user assignment
 
 This document focuses on privilege administration and the integration for organizations that creates and administrates their own privileges.
+
 ## Terminology
 
 | **Term** | **Description** |
@@ -145,12 +146,3 @@ The privileges management web-interface contains the functionality needed by bot
 All core functionalities can also be accessed via API directly, but some workflows and onboarding processes will require the use of the web-interface.
 
 The privileges management web-interface will automatically adapt to the privileges of the user logging in and thus allow tailored usage of the different work-roles for the privilege setup.
-
-The web-interface can be found (when ready), at:
-
-| Environment | URL |
-| --- | --- |
-| Pre-Production (PP) | <https://pp.netseidbroker.dk/privileges> |
-| Production | <https://netseidbroker.dk/privileges> |
-
-It will be possible to login with NemID and MitID Erhverv employee identities, as well as a special “MitID Demo” login available in the test environment.
