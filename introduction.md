@@ -6,11 +6,11 @@ nav_order: 8
 
 # Introduction
 
-This document is an introduction to Nets eID Broker Privilege Management (NeB-PM)
+This document is an introduction to Signaturgruppen Privilege Management (NeB-PM)
 
 The intended audiences are Privilege administrators, IT developers and IT architects.
 
-Nets eID Broker Privilege Management is a Privilege Management API and web-interface, that allows organizations to create and administrate privileges specific for their own services and allows organizations to assign privileges and roles to the employees of their organizations.
+Signaturgruppen Privilege Management is a Privilege Management API and web-interface, that allows organizations to create and administrate privileges specific for their own services and allows organizations to assign privileges and roles to the employees of their organizations.
 
 Both the API and the web-interface is tailored towards two overall usages
 
@@ -85,7 +85,7 @@ At runtime, a change in privilege state or assignability will dynamically affect
 
 # Privileges API
 
-The privileges API implements the full functionality of the Nets eID Broker Privilege Management ecosystem and can be used by all roles of the integration as a compliment or replacement for using the web-interface.
+The privileges API implements the full functionality of the Signaturgruppen Privilege Management ecosystem and can be used by all roles of the integration as a compliment or replacement for using the web-interface.
 
 Getting runtime privileges for end-users can only be achieved using the API.
 
@@ -104,13 +104,13 @@ Onboarding of the API clients will be facilitated by Signaturgruppen or by the i
 
 To retrieve a valid service token (bearer token) for the privileges API, invoke the Client Credentials flow with standard Token endpoint (Client Credentials) parameters and setting the scope parameter to include “privileges_api”.
 
-Technical documentation for the integration to Nets eID Broker Privilege Management is found at
+Technical documentation for the integration to Signaturgruppen Privilege Management is found at
 
 <https://signaturgruppen-a-s.github.io/privilege-management-docs/>
 
 # Privileges management web-interface
 
-The privileges management web-interface contains the functionality needed by both privileges administrators and privilege assigners and will in time offer functionality to help onboard both small and large organizations into the Nets eID Broker Privilege Management eco-system.
+The privileges management web-interface contains the functionality needed by both privileges administrators and privilege assigners and will in time offer functionality to help onboard both small and large organizations into the Signaturgruppen Privilege Management eco-system.
 
 All core functionalities can also be accessed via API directly, but some workflows and onboarding processes will require the use of the web-interface.
 
