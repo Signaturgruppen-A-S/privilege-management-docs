@@ -1,15 +1,15 @@
 ---
-title: Environments
+title: Introduction
 layout: home
 nav_order: 6
 ---
 
 # Introduction
-This document is an introduction to Nets eID Broker Privilege Management (NeB-PM)
+This document is an introduction to Signaturgruppen Privilege Management (NeB-PM)
 
 The intended audiences are Privilege administrators, IT developers and IT architects.
 
-Nets eID Broker Privilege Management is a Privilege Management API and web-interface, that allows organizations to create and administrate privileges specific for their own services and allows organizations to assign privileges and roles to the employees of their organizations.
+Signaturgruppen Privilege Management is a Privilege Management API and web-interface, that allows organizations to create and administrate privileges specific for their own services and allows organizations to assign privileges and roles to the employees of their organizations.
 
 Both the API and the web-interface is tailored towards two overall usages
 
@@ -23,10 +23,10 @@ This document focuses on privilege administration and the integration for organi
 | --- | --- |
 | Nets eID Broker (**NEB**) | Nets eID Broker.<br><br>Certified MitID Broker and general broker and identity provider for enterprise services. |
 | OpenID Connect (**OIDC**) | **OpenID Connect** 1.0 is an identity layer on top of the OAuth 2.0 protocol |
-| Nets eID Broker Privilege Management UI web-interface (**PRIV-UI**) | Nets eID Broker Privilege Management web-interface.<br><br>Interface allowing configuration and administration of the integration |
+| Signaturgruppen Privilege Management UI web-interface (**PRIV-UI**) | Signaturgruppen Privilege Management web-interface.<br><br>Interface allowing configuration and administration of the integration |
 | OIO Basic Privilege Profile | Danish Public model-specification for privileges. |
 | Privilege organization administrator | Administrator able to create and administrate privileges for one or more organizations.<br><br>Operations like defining new privileges, update description and update assignability settings for privileges. |
-| Privilege user administrator / Privilege assigner | Administrator able to assign privileges for organization employees.<br><br>In the Nets eID Broker Privilege Management, there is administrative scenarios for both organization and user administration, so we will in general refer to the administrative role of assigning privileges to employees as the “privilege assigner” or “privilege user administrator”. |
+| Privilege user administrator / Privilege assigner | Administrator able to assign privileges for organization employees.<br><br>In the Signaturgruppen Privilege Management, there is administrative scenarios for both organization and user administration, so we will in general refer to the administrative role of assigning privileges to employees as the “privilege assigner” or “privilege user administrator”. |
 
 ## Privileges
 
@@ -119,7 +119,7 @@ At runtime, a change in privilege state or assignability will dynamically affect
 
 ## Privileges API
 
-The privileges API implements the full functionality of the Nets eID Broker Privilege Management ecosystem and can be used by all roles of the integration as a compliment or replacement for using the web-interface.
+The privileges API implements the full functionality of the Signaturgruppen Privilege Management ecosystem and can be used by all roles of the integration as a compliment or replacement for using the web-interface.
 
 Getting runtime privileges for end-users can only be achieved using the API.
 
@@ -140,7 +140,7 @@ To retrieve a valid service token (bearer token) for the privileges API, invoke 
 
 ## Privileges management web-interface
 
-The privileges management web-interface contains the functionality needed by both privileges administrators and privilege assigners and will in time offer functionality to help onboard both small and large organizations into the Nets eID Broker Privilege Management eco-system.
+The privileges management web-interface contains the functionality needed by both privileges administrators and privilege assigners and will in time offer functionality to help onboard both small and large organizations into the Signaturgruppen Privilege Management eco-system.
 
 All core functionalities can also be accessed via API directly, but some workflows and onboarding processes will require the use of the web-interface.
 
