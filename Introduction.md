@@ -137,7 +137,7 @@ The API integration (system to system) is done using the OAuth Client Credential
 
 Onboarding of the API clients will be facilitated by Signaturgruppen or by the integrating organizations in the Nets eID Broker Administrative web-interface when access to this interface has been granted.
 
-To retrieve a valid service token (bearer token) for the privileges API, invoke the Client Credentials flow with standard Token endpoint (Client Credentials) parameters and setting the scope parameter to include “privileges_api”.
+To retrieve a valid service token (bearer token) for the privileges API, invoke the Client Credentials flow with standard Token endpoint (Client Credentials) parameters and setting the scope parameter to include “privilege_api”.
 
 ## Privileges management web-interface
 
